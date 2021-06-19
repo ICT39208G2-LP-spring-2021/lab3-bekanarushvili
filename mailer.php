@@ -8,8 +8,10 @@ require_once 'vendor/phpmailer/phpmailer/src/Exception.php';
 require_once 'vendor/phpmailer/phpmailer/src/PHPMailer.php';
 require_once 'vendor/phpmailer/phpmailer/src/SMTP.php';
 
+
 function verifymeil($ml , $name , $msg){
 
+    
 // passing true in constructor enables exceptions in PHPMailer
     $mail = new PHPMailer(true);
 
