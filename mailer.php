@@ -22,8 +22,8 @@ function verifymeil($ml , $name , $msg){
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port = 587;
 
-        $mail->Username = 'artur.gasparyan060270@gmail.com'; // YOUR gmail email
-        $mail->Password = 'artur060270'; // YOUR gmail password
+        $mail->Username = 'example123@gmail.com'; // YOUR gmail email //gmail მეილი არ მქონდა არ ვიყენებ გუგლის მეილს. :) :/
+        $mail->Password = '123456879'; // YOUR gmail password
 
         // Sender and recipient settings
         $mail->setFrom('example@gmail.com', 'Admin');
